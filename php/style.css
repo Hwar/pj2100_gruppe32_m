@@ -1,0 +1,154 @@
+body {
+	background-color: #000000;
+}
+#mainContent {
+
+	
+	top: 72px;
+	left: 50%;
+	width: 900px;
+	height: 1400px;
+	position: absolute;
+	margin-left: -450px;
+	background-color: #FFFFFF;
+}
+
+#headerwrap {
+
+	background: linear-gradient(#FFD208, #FFB508);
+	box-shadow: 2px 2px 1px #333333;
+	position: absolute;
+	height: 120px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+
+}
+
+#headercontent {
+
+	/*border-bottom: 2px solid #333333;*/
+	background: linear-gradient(#FFD208, #FFB508);
+	margin-left: -450px;
+	position: absolute;
+	margin-top: 0px;
+	width: 900px;
+	height: 100%;
+	left: 50%;
+
+}
+/*
+#sidebar {
+	background-color: white;
+	border: 2px solid black;
+	position: absolute;
+	height: 100%;
+	width: 20%;
+	left: 0px;
+	top: 0px;
+
+}
+*/
+
+
+#diamond {
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+	-webkit-transition: 0.4s;
+	background-color: black;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	top: 20%;
+	z-index: 1;
+
+
+}
+
+#diamond:hover #menubar{
+	background-color: red;
+	left: 300px;
+
+
+}
+
+
+#menubar {
+	background-color: gray;
+	height: 20px;
+	width: 40px;
+	-webkit-transition: 0.4s;
+	transition: 1s;
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+	position: absolute;
+	top: 15px;
+}
+
+#logo {
+	left: 20px;
+	top: 40px;
+	margin-top: -16px;
+	position: absolute;
+	width: 146px;
+	height: 16px;
+	background: url("logo.png");
+}
+
+#sidemenu {
+	padding-top: 50px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 150px;
+	height: 100%;
+	background-color: black;
+}
+
+
+#bruker {
+	position: relative;
+	border-radius: 10%;
+	height: 15px;
+	width: 75px;
+}
+#pass {
+	position: relative;
+	border-radius: 10%;
+	height: 15px;
+	width: 75px;
+	margin-right: 5px;
+
+}
+
+#loginWrap {
+
+	left: 50%;
+	position: absolute;
+	text-align: right;
+	top: 120px;
+	margin-top: -22px;
+	position: relative;
+	height: 30px;
+	width: 855px;
+	font-family: arial;
+	font-size: 11;
+	margin-left: -450px;
+}
+
+#submit {
+	position: absolute;
+	width: 45px;
+	height: 17px;
+	font-family: arial;
+	background-color: gray;
+	font-size: 10;
+}
+
+#footer {
+	position: absolute;
+	height: 10%;
+	bottom: 0px;
+	width: 100%;
+	background-color: gray;
+}

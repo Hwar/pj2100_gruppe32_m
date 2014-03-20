@@ -1,0 +1,33 @@
+
+
+CREATE TABLE StudieRetning(
+StudieRetning_ID INT (3) NOT NULL AUTO_INCREMENT,
+StudieRetningNavn VARCHAR (150) NOT NULL,
+PRIMARY KEY (StudieRetning_ID));
+
+CREATE TABLE Utvalg(
+Utvalg_ID INT (3) NOT NULL UNIQUE AUTO_INCREMENT,
+UtvalgNavn VARCHAR (100) NOT NULL,
+PRIMARY KEY (Utvalg_ID));
+
+CREATE TABLE Student (
+Student_ID INT(7) NOT NULL UNIQUE AUTO_INCREMENT,
+BrukerNavn CHAR(50) NOT NULL,
+BrukerPass CHAR(50) NOT NULL,
+ForNavn CHAR (50) NOT NULL,
+EtterNavn CHAR (50) NOT NULL,
+Adresse CHAR (50) NOT NULL,
+PostNr SMALLINT (6) NULL,
+Telefon INT (20) NOT NULL,
+Epost VARCHAR (128) NOT NULL,
+StudieRetning_ID INT (3) NOT NULL,
+PRIMARY KEY (Student_ID),
+FOREIGN KEY (StudieRetning_ID) REFERENCES Studieretning(StudieRetning_ID));
+
+CREATE TABLE StudentIUtvalg(
+Student_ID INT(7) NOT NULL,
+Utvalg_ID INT(3) NOT NULL,
+PRIMARY KEY (Student_ID,Utvalg_ID),
+FOREIGN KEY (Student_ID) REFERENCES Student(Student_ID),
+FOREIGN KEY (Utvalg_ID) REFERENCES Utvalg(Utvalg_ID));
+

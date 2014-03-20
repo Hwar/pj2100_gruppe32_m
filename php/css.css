@@ -1,0 +1,31 @@
+#ramme{
+	margin-top: 0px;
+	position: relative;
+	height: 860px;
+	width: 1300px;
+}
+
+#infoboks {
+	margin: 2px;
+	display: inline-table;
+	width: 300px;
+	height: 150px;
+	padding: 10px;
+	resize:both;
+	overflow:auto;
+	border: 3px solid black;
+} 
+
+
+#infoboks:hover #innhold{
+	display: inline-table;
+	max-height: 400px;
+
+}
+
+
+#innhold{
+	display:none;
+}
+
+

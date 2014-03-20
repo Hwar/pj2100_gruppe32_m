@@ -1,0 +1,437 @@
+body {
+	background-color: #FFFFFF;
+	font-family: arial;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #000000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000000;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000000;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000000;
+}
+
+/*----------Footer----------*/
+
+#footer {
+	bottom: 0px;
+	height: 70px;
+	width: 100%;
+	position: absolute;
+	background: linear-gradient(#676767, #454545);
+}
+
+#footerContent {
+	width: 900px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	font-family: arial;
+	font-size: 10px;
+	margin-left: -450px;
+
+}
+
+#footerText1 {
+
+	top: 45px;
+	left: 355px;
+	position: absolute;
+}
+
+#footerText2 {
+	top: 45px;
+	left: 725px;
+	position: absolute;
+}
+
+#footerText3 {
+	top: 45px;
+	position: absolute;
+}
+
+.logoer1{
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	left: 414px;
+	top: 20px;
+}
+
+.logoer2{
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	left: 790px;
+	top: 20px;
+
+}
+
+.logoer3{
+	left: 40px;
+	position: absolute;
+	width: 45px;
+	height: 20px;
+	top: 20px;
+}
+
+
+/*----------Hovedinnhold----------*/
+
+#container {
+	position: absolute;
+	width: 100%;
+	top: 112px;
+	min-height: 100%;
+	margin-bottom: -112px;
+	left: 0px;
+	background-color: black;
+}
+
+#mainContent {
+
+	left: 50%;
+	width: 900px;
+	position: relative;
+	margin-left: -450px;
+	padding-bottom: 70px;
+	background-color: black;
+	margin-top: 10px;
+	color: white;
+
+}
+
+/*----------Header----------*/
+
+#headerwrap {
+	background: linear-gradient(#CCCCCC, #FFFFFF);
+	box-shadow: 2px 2px 1px #333333;
+	position: absolute;
+	height: 120px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+
+
+}
+
+#headercontent {
+	margin-left: -450px;
+	position: absolute;
+	width: 900px;
+	height: 100%;
+	left: 50%;
+}
+
+
+#wrapKim{
+	height: 70px;
+	position: absolute;
+	width: 140px;
+	left: 641px;
+	top: 8px;
+}
+
+#kimWrap{
+	height: 70px;
+	position: absolute;
+	width: 140px;
+	left: 808px;
+	top: 8px;
+}
+
+#headerMenu {
+	top: 83px;
+	left: 509px;
+	position: absolute;
+	height: 70px;
+   	width: 350px;
+   
+   
+
+}
+#img1{
+	left: 255px;
+	position: absolute;
+}
+
+#img2{
+	position: absolute;
+	left: 127px;
+}
+
+#img3{
+	position: absolute;
+
+}
+
+#logo {
+	left: 5px;
+	top: 3px;
+	position: absolute;
+	width: 146px;
+	background: url("logo.png");
+	position: absolute;
+}
+
+/*----------Login----------*/
+
+#loginWrap {
+
+	left: 695px;
+	position: absolute;
+	margin-top: -110px;
+	position: relative;
+	height: 77px;
+	width: 198px;
+	font-family: arial;
+	font-size: 15;
+}
+#loginWrap2 {
+	position: absolute;
+	margin-top: 118px;
+}
+
+#bruker {
+
+	position: absolute;
+	left: 90px;
+	top: 0px;
+	height: 24px;
+	width: 111px;
+	background: url('../bilder/Searchfield_02.png');
+	border: 0px;
+	padding-left: 5px;
+}
+
+
+#pass {
+	top: 26px;
+	left: 90px;
+	position: absolute;
+	height: 24px;
+	width: 111px;
+	background: url('../bilder/Searchfield_02.png');
+	border: 0px;
+	padding-left: 5px;
+}
+
+#password {
+	position: absolute;
+	margin-top: 8px
+}
+
+#submit {
+	top: 52px;
+	left: 146px;
+	position: absolute;
+	width: 54px;
+	height: 20px;
+	font-family: arial;
+	background: url('../bilder/button4.png');
+	border-radius: 7%;
+	border: 0px;
+}
+
+#submit:active{
+	background: url('../bilder/button3.png');
+}
+
+#registrering {
+	position: absolute;
+	background: url('../bilder/button4.png');
+	text-align: center;
+	font-size: 10px;
+	width: 54px;
+	height: 20px;
+	border: 0px;
+	left: 90px;
+	top: 52px;
+	border-radius: 7%;
+}
+
+#registrering:active{
+	background: url('../bilder/button3.png');
+}
+
+#minContainer{
+	padding-top: 15px;
+	margin-top: -15px;
+	height: 100%;
+	width: 100%;
+	font-family: arial;
+	color: white;
+}
+
+#ramme{
+	margin-top: 0px;
+	position: relative;
+	width: 900px;
+}
+
+#infoboks {
+	margin: 3px;
+	display: inline-table;
+	width: 288px;
+	height: 150px;
+	background-color: white;
+	border: 3px solid black;
+	color: black;
+
+} 
+
+#infoboks h1{
+	text-align: center;
+	font-size: 15px;
+	margin-top: 70px;
+	width: 288px;
+}
+
+#banner {
+	position: absolute;
+	width: 288px;
+	height: 100px;
+	border: 2px solid black;
+	background-color: white;
+
+}
+
+#infoboks:hover #innhold{
+	display: inline-table;
+	max-height: 400px;
+}
+
+#innhold{
+	display:none;
+}
+
+#warning{
+	color: red;
+}
+
+#passordfield{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	padding-left: 5px;
+	left: 167px;
+	position: absolute;
+	top: 190px;
+
+}
+
+#NyEpost1{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	left: 167px;
+	position: absolute;
+	top: 215px;
+}
+
+#NyEpost2{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	left: 167px;
+	position: absolute;
+	top: 240px;
+}
+
+#GammeltPassord{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	left: 167px;
+	position: absolute;
+	top: 330px;
+}
+
+#NyttPassord1{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	left: 167px;
+	position: absolute;
+	top: 355px;
+
+}
+
+#NyttPassord2{
+	margin-bottom: 2px;
+	height: 24px;
+	width: 111px;
+	/*background: url('../bilder/Searchfield_02.png');*/
+	border: 0px;
+	left: 167px;
+	top: 380px;
+	position: absolute;
+}
+
+#mainContent h1{
+	font-size: 15px;
+	margin-bottom: -18px;
+	font-family: arial;
+	font-weight: normal;
+}
+#dropDown{
+	position: absolute;
+	top: 340px;
+	left: 163px;
+}
+#submit3{
+	position: absolute;
+	top: 367px;
+	left: 270px;
+}
+
+#submit2{
+	position: absolute;
+	left: 280px;
+	top: 245px;
+}
+
+#submit1{
+	position: absolute;
+	left: 280px;
+	top: 385px;
+}
+
+#mainContent h2{
+	font-size: 15px;
+	margin-bottom: -18px;
+	font-family: arial;
+	font-weight: normal;
+}
+
+#mainContent h3{
+	font-size: 25px;
+}
+
+#reg1{
+	position: relative;
+	left: 200px;
+}
+
+#confirm{
+	color: green;
+}
+
+#confirm{
+	color: green;
+}

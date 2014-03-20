@@ -1,0 +1,25 @@
+INSERT INTO Utvalg VALUES (null, "#fuBar", "Studentkroa er et sentralt sosialpunkt på skolen. De aller fleste arrangementer på skolen arrangeres på en eller annen måte i samarbeid med #fuBar.<br/><br/>#fuBar er drevet av studenter som jobber frivillig og det jobbes stadig for å både få studentene mer engasjert der, samt å forbedre lokalet slik at man kan utnytte det fulle potensialet som den har.");
+
+INSERT INTO Utvalg VALUES (null, "Utvalget for Fantastiske Fritidsinteresser", "Dette utvalget er et utvalg som representerer de mange studentene på skolen som har en interesse for spill. Utvalget arrangere jevnlig LAN for studentene med forskjellige temaer samt er også med på arrangement som inkluderer spill.<br/><br/> Utvalget representerer blant annet et av de største sosiale communitiene på skolen: Magicspillere, som jevnlig samles for å spille både på og utenfor skolen, og med dette åpner utvalget for å oppnå kontakt med en demograf av studenter som er unikt for UFF.");
+
+INSERT INTO Utvalg VALUES (null, "Prosjektutvalg for spill", "Prosjektutvalget for Spill er i motsetning til UFF ikke tilrettelagt for å dyrke interessen til de som liker å spille, men er heller til for å engasjere studentene i utvikling av spill og å bidra til å bedre hver enkelt students CV/portefølje.<br/><br/>Utvalget jobber for å øke engasjementet rundt spillproduksjon og ønsker å gjøre det enklere for studenter å jobbe med hverandre på tvers av disipliner. Det ønsker også å skape et community rundt spillutvikling, samt å gi studentene erfaringen til å starte noe egent ut av skolen, som er essensielt i dagens spillmarked.");
+
+INSERT INTO Utvalg VALUES (null, "Utviklingsutvalget", "Utviklingsutvalget har som hovedformål å heve studentenes kompetanse innenfor felt som ikke dekkes i den ordinære undervisningen ved NITH.<br/><br/>Dette gjøres gjennom å.<br/><br/>Tilby kursing og workshops innenfor disipliner som studentene selv ønsker.<br/>Fungere som et forum der studenter kan få feedback og hjelp til egne prosjekter.<br/>Legge til rette for utviklingsprosjekter som studenter kan delta i -learning by doing.");
+
+INSERT INTO Utvalg VALUES (null, "Idrettsutvalget", "Idrettsutvalget er til på skolen både for å dra i gang de studentene som kanskje ikke er mest aktive fysik, samt å oppmuntre de studenter som allerede er aktive.<br/><br/>Per i dag er det eneste skolelaget på skolen bedriftsfotballaget, som holdes høyt av utvalget.<br/><br/>Hovedmålet for utvalget er å opprettholde og øke aktivitetsnivået på skolen, både sosial og sportslig. Håpet er å få et aktivitetsnivå som åpner for muligheter for å melde skolen opp i lokale og nasjonale turneringer innen forskjellige idretter, for eksempel Studentmesterskapet.");
+
+INSERT INTO Utvalg VALUES (null, "Musikkutvalget", "Musikkutvalget er det nyeste utvalget på skolen. Det ble stiftet i Oktober 2012 av førsteklassestudenter som så et behov for det på skolen og gikk sammen for å imøtekomme dette behovet.<br/><br/>I tillegg til å allerede ha holdt vellykkede arrangementer som jamkvelder, ønsker utvalget å kunne utvikle miljøet på skolen blant musikkinteresserte studenter og engasjere disse på en måte som ikke har vært mulig før.");
+
+INSERT INTO Utvalg VALUES (null, "Sosialutvalget", "Sosialutvalget er ansvarlige for de fleste store sosiale eventene på skolen. Utvalget arrangerer en storfest i måneden med eget tema, som er svært populære blant studentene og ofte trekker mye folk. I motsetning til de andre utvalgene er Sosialutvalget til kun for det sosiale og er derfor ofte mindre faglig rettet, men utvalget er definitivt beste måten å nå store mengder studenter på en gang.");
+
+INSERT INTO Utvalg VALUES (null, "Kvinner i IT", "Det er ikke å skjule på at jenter er noe i mindretall både på skolen og i IT verden generelt. Derfor er det veldig viktig at jentene på skolen blir kjent med hverandre og både kan hjelpe hverandre på og etter skolen. Dette er noe som muliggjøres gjennom KIT. KIT arrangerer alt fra minglekvelder til fagspesifikke workshops for å oppmuntre samarbeid mellom jentene og sørge for at jentene får alle muligheter til å lykkes.");
+
+INSERT INTO Utvalg VALUES (null, "Apple User Group", "Apple User Group representerer en gruppe studenter på skolen som har økt dramatisk i antall de siste par årene: Brukere av Apple-produkter.<br/><br/>Utvalgets jobb er å assistere disse studentene slik at de har like mye utnytte av sin utdanning, uavhengig av programvare og foretrukket operativsystem. I tillegg jobber utvalget med å profilere Apple-produkter og sørge for at det ikke skal medføre noen problemer å bruke MAC/OSX gjennom skolegangen på NITH.");
+
+INSERT INTO Utvalg VALUES (null, "Arbeidsutvalget", "AU... Nuff said");
+
+INSERT INTO Utvalg VALUES (null, "Festkomitè", "Festkomitèn arrangerer vorspiel, quiz og fester på skolen");
+
+INSERT INTO Utvalg VALUES (null, "Westerball", "Westerball arrangerer ballspill en til to ganger i uka.");
+
+INSERT INTO Utvalg VALUES (null, "Gullkalven", "Gullkalven arrangerer gullkalven hvert år.");
